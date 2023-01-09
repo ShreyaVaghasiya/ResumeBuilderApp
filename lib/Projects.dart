@@ -44,13 +44,13 @@ class _proState extends State<pro> {
                   child: Text(
                     "    Project Title",
                     style: TextStyle(
-                        fontSize: 20,
+                        fontSize: 12,
                         color: Colors.blue,
                         fontWeight: FontWeight.bold),
                   )),
               Container(
                 height: 40,
-                margin: EdgeInsets.all(20),
+                margin: EdgeInsets.all(12),
                 child: TextField(
                   onChanged: (value){
                     setState(() {
@@ -58,12 +58,13 @@ class _proState extends State<pro> {
                     });
                   },
                   decoration: InputDecoration(
-                    contentPadding: EdgeInsetsGeometry.lerp(
-                        EdgeInsets.zero, EdgeInsets.zero, 20),
-                    border: OutlineInputBorder(),
+                    contentPadding: EdgeInsets.all(10),
+                    border: OutlineInputBorder(
+                      
+                    ),
                     hintText: "Resume Builder App",
                     hintStyle: TextStyle(
-                        fontSize: 20,
+                        fontSize: 12,
                         fontWeight: FontWeight.bold,
                         color: Colors.grey),
                   ),
@@ -75,7 +76,7 @@ class _proState extends State<pro> {
                   child: Text(
                     "    Technologies",
                     style: TextStyle(
-                        fontSize: 20,
+                        fontSize: 12,
                         color: Colors.blue,
                         fontWeight: FontWeight.bold),
                   )),
@@ -84,7 +85,7 @@ class _proState extends State<pro> {
                   title: Text(
                     "C Programming",
                     style: TextStyle(
-                        fontSize: 20,
+                        fontSize: 12,
                         color: Colors.grey,
                         fontWeight: FontWeight.bold),
                   ),
@@ -99,7 +100,7 @@ class _proState extends State<pro> {
                   title: Text(
                     "C++",
                     style: TextStyle(
-                        fontSize: 20,
+                        fontSize: 12,
                         color: Colors.grey,
                         fontWeight: FontWeight.bold),
                   ),
@@ -114,7 +115,7 @@ class _proState extends State<pro> {
                   title: Text(
                     "Flutter",
                     style: TextStyle(
-                        fontSize: 20,
+                        fontSize: 12,
                         color: Colors.grey,
                         fontWeight: FontWeight.bold),
                   ),
@@ -130,13 +131,13 @@ class _proState extends State<pro> {
                   child: Text(
                     "    Roles",
                     style: TextStyle(
-                        fontSize: 20,
+                        fontSize: 12,
                         color: Colors.blue,
                         fontWeight: FontWeight.bold),
                   )),
               Container(
                 height: 40,
-                margin: EdgeInsets.all(20),
+                margin: EdgeInsets.all(12),
                 child: TextField(
                   onChanged: (value){
                     setState(() {
@@ -145,12 +146,11 @@ class _proState extends State<pro> {
                   },
                   maxLines: 2,
                   decoration: InputDecoration(
-                    contentPadding: EdgeInsetsGeometry.lerp(
-                        EdgeInsets.zero, EdgeInsets.zero, 20),
+                    contentPadding: EdgeInsets.all(10),
                     border: OutlineInputBorder(),
                     hintText: "Organize Team Members",
                     hintStyle: TextStyle(
-                        fontSize: 20,
+                        fontSize: 12,
                         fontWeight: FontWeight.bold,
                         color: Colors.grey),
                   ),
@@ -162,13 +162,13 @@ class _proState extends State<pro> {
                   child: Text(
                     "    Technologies",
                     style: TextStyle(
-                        fontSize: 20,
+                        fontSize: 12,
                         color: Colors.blue,
                         fontWeight: FontWeight.bold),
                   )),
               Container(
                 height: 40,
-                margin: EdgeInsets.all(20),
+                margin: EdgeInsets.all(12),
                 child: TextField(
                   onChanged: (value){
                     setState(() {
@@ -177,12 +177,11 @@ class _proState extends State<pro> {
                   },
                   decoration: InputDecoration(
 
-                    contentPadding: EdgeInsetsGeometry.lerp(
-                        EdgeInsets.zero, EdgeInsets.zero, 20),
+                    contentPadding: EdgeInsets.all(10),
                     border: OutlineInputBorder(),
                     hintText: "5 - Programmers",
                     hintStyle: TextStyle(
-                        fontSize: 20,
+                        fontSize: 12,
                         fontWeight: FontWeight.bold,
                         color: Colors.grey),
                   ),
@@ -194,13 +193,13 @@ class _proState extends State<pro> {
                   child: Text(
                     "    Project Discription",
                     style: TextStyle(
-                        fontSize: 20,
+                        fontSize: 12,
                         color: Colors.blue,
                         fontWeight: FontWeight.bold),
                   )),
               Container(
                 height: 40,
-                margin: EdgeInsets.all(20),
+                margin: EdgeInsets.all(12),
                 alignment: Alignment.center,
                 child: TextField(
                 onChanged: (value){
@@ -210,12 +209,11 @@ class _proState extends State<pro> {
               },
                   decoration: InputDecoration(
 
-                    contentPadding: EdgeInsetsGeometry.lerp(
-                        EdgeInsets.zero, EdgeInsets.zero, 20),
+                    contentPadding: EdgeInsets.all(10),
                     border: OutlineInputBorder(),
                     hintText: "Enter Your Project Discription",
                     hintStyle: TextStyle(
-                        fontSize: 20,
+                        fontSize: 12,
                         fontWeight: FontWeight.bold,
                         color: Colors.grey),
                   ),
@@ -229,7 +227,7 @@ class _proState extends State<pro> {
                       child: Text(
                         "Save",
                         style: TextStyle(
-                            fontSize: 20, fontWeight: FontWeight.bold),
+                            fontSize: 12, fontWeight: FontWeight.bold),
                       )))
             ],
           ),

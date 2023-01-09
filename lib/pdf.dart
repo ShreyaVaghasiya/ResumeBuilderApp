@@ -111,7 +111,7 @@ class _mypdfState extends State<mypdf> {
                                 pw.Text(
                                   "(+91) ${Globals.phoneno}",
                                   style: pw.TextStyle(
-                                      fontSize: 15,
+                                      fontSize: 12,
                                       color: PdfColors.black,
                                       fontWeight: pw.FontWeight.bold),
                                 ),
@@ -134,7 +134,7 @@ class _mypdfState extends State<mypdf> {
                                 pw.Text(
                                   "${Globals.add1},${Globals.add2} ${Globals.add3}",
                                   style: pw.TextStyle(
-                                      fontSize: 15,
+                                      fontSize: 12,
                                       color: PdfColors.black,
                                       fontWeight: pw.FontWeight.bold),
                                 ),
@@ -174,13 +174,13 @@ class _mypdfState extends State<mypdf> {
                                   margin: pw.EdgeInsets.all(5),
                                   child: pw.Container(
                                     height: 40,
-                                    width: 150,
+                                    width: 120,
                                     color: PdfColors.blue,
                                     alignment: pw.Alignment.center,
                                     child: pw.Text(
                                       "Professional Profile",
                                       style: pw.TextStyle(
-                                        fontSize: 15,
+                                        fontSize: 12,
                                         color: PdfColors.white,
                                         fontWeight: pw.FontWeight.bold,
                                       ),
@@ -268,13 +268,13 @@ class _mypdfState extends State<mypdf> {
                                   margin: pw.EdgeInsets.all(5),
                                   child: pw.Container(
                                     height: 40,
-                                    width: 150,
+                                    width: 120,
                                     color: PdfColors.blue,
                                     alignment: pw.Alignment.center,
                                     child: pw.Text(
                                       "Education",
                                       style: pw.TextStyle(
-                                        fontSize: 15,
+                                        fontSize: 12,
                                         color: PdfColors.white,
                                         fontWeight: pw.FontWeight.bold,
                                       ),
@@ -359,7 +359,7 @@ class _mypdfState extends State<mypdf> {
                                             child: pw.Text(
                                               "Professional Experience",
                                               style: pw.TextStyle(
-                                                fontSize: 15,
+                                                fontSize: 12,
                                                 color: PdfColors.white,
                                                 fontWeight: pw.FontWeight.bold,
                                               ),
@@ -388,7 +388,7 @@ class _mypdfState extends State<mypdf> {
                                                 child: pw.Text(
                                                   "Company Name",
                                                   style: pw.TextStyle(
-                                                    fontSize: 15,
+                                                    fontSize: 12,
                                                     color: PdfColors.grey,
                                                     fontWeight:
                                                         pw.FontWeight.bold,
@@ -432,7 +432,7 @@ class _mypdfState extends State<mypdf> {
                                                 child: pw.Text(
                                                   "Designation",
                                                   style: pw.TextStyle(
-                                                    fontSize: 15,
+                                                    fontSize: 12,
                                                     color: PdfColors.grey,
                                                     fontWeight:
                                                         pw.FontWeight.bold,
@@ -478,7 +478,7 @@ class _mypdfState extends State<mypdf> {
                                                 child: pw.Text(
                                                   "Status",
                                                   style: pw.TextStyle(
-                                                    fontSize: 15,
+                                                    fontSize: 12,
                                                     color: PdfColors.grey,
                                                     fontWeight:
                                                         pw.FontWeight.bold,
@@ -526,13 +526,13 @@ class _mypdfState extends State<mypdf> {
                                           margin: pw.EdgeInsets.all(5),
                                           child: pw.Container(
                                             height: 40,
-                                            width: 150,
+                                            width: 120,
                                             color: PdfColors.blue,
                                             alignment: pw.Alignment.center,
                                             child: pw.Text(
                                               "Referance",
                                               style: pw.TextStyle(
-                                                fontSize: 15,
+                                                fontSize: 12,
                                                 color: PdfColors.white,
                                                 fontWeight: pw.FontWeight.bold,
                                               ),
@@ -561,7 +561,7 @@ class _mypdfState extends State<mypdf> {
                                                 child: pw.Text(
                                                   "Ref Name",
                                                   style: pw.TextStyle(
-                                                    fontSize: 15,
+                                                    fontSize: 12,
                                                     color: PdfColors.grey,
                                                     fontWeight:
                                                         pw.FontWeight.bold,
@@ -605,7 +605,7 @@ class _mypdfState extends State<mypdf> {
                                                 child: pw.Text(
                                                   "Desg.",
                                                   style: pw.TextStyle(
-                                                    fontSize: 15,
+                                                    fontSize: 12,
                                                     color: PdfColors.grey,
                                                     fontWeight:
                                                         pw.FontWeight.bold,
@@ -650,7 +650,7 @@ class _mypdfState extends State<mypdf> {
                                                 child: pw.Text(
                                                   "comp.",
                                                   style: pw.TextStyle(
-                                                    fontSize: 15,
+                                                    fontSize: 12,
                                                     color: PdfColors.grey,
                                                     fontWeight:
                                                         pw.FontWeight.bold,
@@ -777,7 +777,7 @@ class _mypdfState extends State<mypdf> {
                         Text(
                           "(+91) ${Globals.phoneno}",
                           style: TextStyle(
-                              fontSize: 15,
+                              fontSize: 12,
                               color: Colors.black,
                               fontWeight: FontWeight.bold),
                         ),
@@ -800,7 +800,7 @@ class _mypdfState extends State<mypdf> {
                         Text(
                           "${Globals.add1},${Globals.add2} ${Globals.add3}",
                           style: TextStyle(
-                              fontSize: 15,
+                              fontSize: 12,
                               color: Colors.black,
                               fontWeight: FontWeight.bold),
                         ),
@@ -841,13 +841,13 @@ class _mypdfState extends State<mypdf> {
                             margin: EdgeInsets.all(5),
                             child: Container(
                               height: 40,
-                              width: 150,
+                              width: 120,
                               color: Colors.blue,
                               alignment: Alignment.center,
                               child: Text(
                                 "Professional Profile",
                                 style: TextStyle(
-                                  fontSize: 15,
+                                  fontSize: 12,
                                   color: Colors.white,
                                   fontWeight: FontWeight.bold,
                                 ),
@@ -935,13 +935,13 @@ class _mypdfState extends State<mypdf> {
                             margin: EdgeInsets.all(5),
                             child: Container(
                               height: 40,
-                              width: 150,
+                              width: 120,
                               color: Colors.blue,
                               alignment: Alignment.center,
                               child: Text(
                                 "Education",
                                 style: TextStyle(
-                                  fontSize: 15,
+                                  fontSize: 12,
                                   color: Colors.white,
                                   fontWeight: FontWeight.bold,
                                 ),
@@ -1029,7 +1029,7 @@ class _mypdfState extends State<mypdf> {
                                       child: Text(
                                         "Professional Experience",
                                         style: TextStyle(
-                                          fontSize: 15,
+                                          fontSize: 12,
                                           color: Colors.white,
                                           fontWeight: FontWeight.bold,
                                         ),
@@ -1056,7 +1056,7 @@ class _mypdfState extends State<mypdf> {
                                           child: Text(
                                             "Company Name",
                                             style: TextStyle(
-                                              fontSize: 15,
+                                              fontSize: 12,
                                               color: Colors.grey,
                                               fontWeight: FontWeight.bold,
                                             ),
@@ -1093,7 +1093,7 @@ class _mypdfState extends State<mypdf> {
                                           child: Text(
                                             "Designation",
                                             style: TextStyle(
-                                              fontSize: 15,
+                                              fontSize: 12,
                                               color: Colors.grey,
                                               fontWeight: FontWeight.bold,
                                             ),
@@ -1132,7 +1132,7 @@ class _mypdfState extends State<mypdf> {
                                           child: Text(
                                             "Status",
                                             style: TextStyle(
-                                              fontSize: 15,
+                                              fontSize: 12,
                                               color: Colors.grey,
                                               fontWeight: FontWeight.bold,
                                             ),
@@ -1175,13 +1175,13 @@ class _mypdfState extends State<mypdf> {
                                     margin: EdgeInsets.all(5),
                                     child: Container(
                                       height: 40,
-                                      width: 150,
+                                      width: 120,
                                       color: Colors.blue,
                                       alignment: Alignment.center,
                                       child: Text(
                                         "Referance",
                                         style: TextStyle(
-                                          fontSize: 15,
+                                          fontSize: 12,
                                           color: Colors.white,
                                           fontWeight: FontWeight.bold,
                                         ),
@@ -1207,7 +1207,7 @@ class _mypdfState extends State<mypdf> {
                                           child: Text(
                                             "Ref Name",
                                             style: TextStyle(
-                                              fontSize: 15,
+                                              fontSize: 12,
                                               color: Colors.grey,
                                               fontWeight: FontWeight.bold,
                                             ),
@@ -1244,7 +1244,7 @@ class _mypdfState extends State<mypdf> {
                                           child: Text(
                                             "Desg.",
                                             style: TextStyle(
-                                              fontSize: 15,
+                                              fontSize: 12,
                                               color: Colors.grey,
                                               fontWeight: FontWeight.bold,
                                             ),
@@ -1283,7 +1283,7 @@ class _mypdfState extends State<mypdf> {
                                           child: Text(
                                             "comp.",
                                             style: TextStyle(
-                                              fontSize: 15,
+                                              fontSize: 12,
                                               color: Colors.grey,
                                               fontWeight: FontWeight.bold,
                                             ),

@@ -25,7 +25,7 @@ class _refState extends State<ref> {
         elevation: 0,
       ),
       body: Container(
-        margin: EdgeInsets.all(20),
+        margin: EdgeInsets.all(12),
         child: Container(
             height: 450,
             width: 400,
@@ -38,13 +38,13 @@ class _refState extends State<ref> {
             child: Text(
               "    Reference Name",
               style: TextStyle(
-                  fontSize: 20,
+                  fontSize: 12,
                   color: Colors.blue,
                   fontWeight: FontWeight.bold),
             )),
         Container(
 
-          margin: EdgeInsets.all(20),
+          margin: EdgeInsets.all(12),
           child: TextField(
             onChanged: (value){
               setState(() {
@@ -55,7 +55,7 @@ class _refState extends State<ref> {
               border: OutlineInputBorder(),
               hintText: "Jyoti Basu",
               hintStyle: TextStyle(
-                  fontSize: 20,
+                  fontSize: 12,
                   fontWeight: FontWeight.bold,
                   color: Colors.grey),
             ),
@@ -67,13 +67,13 @@ class _refState extends State<ref> {
                       child: Text(
                         "    Reference Designantion",
                         style: TextStyle(
-                            fontSize: 20,
+                            fontSize: 12,
                             color: Colors.blue,
                             fontWeight: FontWeight.bold),
                       )),
                   Container(
 
-                    margin: EdgeInsets.all(20),
+                    margin: EdgeInsets.all(12),
                     child: TextField(
                       onChanged: (value){
                         setState(() {
@@ -84,7 +84,7 @@ class _refState extends State<ref> {
                         border: OutlineInputBorder(),
                         hintText: "Flutter Developer ID - 262626",
                         hintStyle: TextStyle(
-                            fontSize: 20,
+                            fontSize: 12,
                             fontWeight: FontWeight.bold,
                             color: Colors.grey),
                       ),
@@ -96,13 +96,13 @@ class _refState extends State<ref> {
                       child: Text(
                         "    Organization/Institute",
                         style: TextStyle(
-                            fontSize: 20,
+                            fontSize: 12,
                             color: Colors.blue,
                             fontWeight: FontWeight.bold),
                       )),
                   Container(
 
-                    margin: EdgeInsets.all(20),
+                    margin: EdgeInsets.all(12),
                     child: TextField(
                       onChanged: (value){
                         setState(() {
@@ -113,7 +113,7 @@ class _refState extends State<ref> {
                         border: OutlineInputBorder(),
                         hintText: "Green Energy Pvt Ltd.",
                         hintStyle: TextStyle(
-                            fontSize: 20,
+                            fontSize: 12,
                             fontWeight: FontWeight.bold,
                             color: Colors.grey),
                       ),

@@ -28,7 +28,7 @@ class _carrierState extends State<carrier> {
       body: Column(
         children: [
           Container(
-            margin: EdgeInsets.all(20),
+            margin: EdgeInsets.all(12),
             child: Container(
               height: 300,
               width: 400,
@@ -36,7 +36,7 @@ class _carrierState extends State<carrier> {
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.start,
                 children: [
-                  SizedBox(height: 20),
+                  SizedBox(height: 12),
                   Align(
                       alignment: Alignment.centerLeft,
                       child: Text(
@@ -47,7 +47,7 @@ class _carrierState extends State<carrier> {
                             fontWeight: FontWeight.bold),
                       )),
                   Container(
-                    margin: EdgeInsets.all(20),
+                    margin: EdgeInsets.all(12),
                     child: TextField(
                       onChanged: (value){
                         setState(() {
@@ -58,7 +58,7 @@ class _carrierState extends State<carrier> {
                       decoration: InputDecoration(
                         border: OutlineInputBorder(),
                         hintText: "Description",
-                        hintStyle: TextStyle(fontSize: 20,fontWeight: FontWeight.bold,color: Colors.grey),
+                        hintStyle: TextStyle(fontSize: 12,fontWeight: FontWeight.bold,color: Colors.grey),
                       ),
                     ),
                   )
@@ -68,15 +68,15 @@ class _carrierState extends State<carrier> {
           ),
           Padding(padding: EdgeInsets.all(5)),
           Container(
-            margin: EdgeInsets.all(20),
+            margin: EdgeInsets.all(12),
             child: Container(
-              height: 200,
+              height: 150,
               width: 400,
               color: Colors.white,
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.start,
                 children: [
-                  SizedBox(height: 20),
+                  SizedBox(height: 12),
                   Align(
                       alignment: Alignment.centerLeft,
                       child: Text(
@@ -96,7 +96,7 @@ class _carrierState extends State<carrier> {
                             fontWeight: FontWeight.bold),
                       )),
                   Container(
-                    margin: EdgeInsets.all(20),
+                    margin: EdgeInsets.all(12),
                     child: TextField(
                       onChanged: (value){
                         setState(() {
@@ -106,7 +106,7 @@ class _carrierState extends State<carrier> {
                       decoration: InputDecoration(
                         border: OutlineInputBorder(),
                         hintText: "Ex.Software Engineer",
-                        hintStyle: TextStyle(fontSize: 20,fontWeight: FontWeight.bold,color: Colors.grey
+                        hintStyle: TextStyle(fontSize: 12,fontWeight: FontWeight.bold,color: Colors.grey
                         ),
                       ),
                     ),

@@ -46,7 +46,7 @@ class _WorkingState extends State<Working> {
                   style: TextStyle(
                     fontWeight: FontWeight.w700,
                     color: Colors.white,
-                    fontSize: 20,
+                    fontSize: 15,
                     letterSpacing: 0.7,
                   )),
             ),
@@ -72,7 +72,7 @@ class _WorkingState extends State<Working> {
                     style: TextStyle(
                         color: Colors.black,
                         fontWeight: FontWeight.bold,
-                        fontSize: 20),
+                        fontSize: 15),
                   ),
                   InkWell(
                     onTap: () {
@@ -111,7 +111,7 @@ class _WorkingState extends State<Working> {
                     style: TextStyle(
                         color: Colors.black,
                         fontWeight: FontWeight.bold,
-                        fontSize: 20),
+                        fontSize: 15),
                   ),
                   InkWell(
                     onTap: () {
@@ -150,7 +150,7 @@ class _WorkingState extends State<Working> {
                     style: TextStyle(
                         color: Colors.black,
                         fontWeight: FontWeight.bold,
-                        fontSize: 20),
+                        fontSize: 15),
                   ),
                   InkWell(
                     onTap: () {
@@ -189,7 +189,7 @@ class _WorkingState extends State<Working> {
                     style: TextStyle(
                         color: Colors.black,
                         fontWeight: FontWeight.bold,
-                        fontSize: 20),
+                        fontSize: 15),
                   ),
                   InkWell(
                     onTap: () {
@@ -228,7 +228,7 @@ class _WorkingState extends State<Working> {
                     style: TextStyle(
                         color: Colors.black,
                         fontWeight: FontWeight.bold,
-                        fontSize: 20),
+                        fontSize: 15),
                   ),
                   InkWell(
                     onTap: () {
@@ -267,7 +267,7 @@ class _WorkingState extends State<Working> {
                     style: TextStyle(
                         color: Colors.black,
                         fontWeight: FontWeight.bold,
-                        fontSize: 20),
+                        fontSize: 15),
                   ),
                   InkWell(
                     onTap: () {
@@ -306,7 +306,7 @@ class _WorkingState extends State<Working> {
                     style: TextStyle(
                         color: Colors.black,
                         fontWeight: FontWeight.bold,
-                        fontSize: 20),
+                        fontSize: 15),
                   ),
                   InkWell(
                     onTap: () {
@@ -345,7 +345,7 @@ class _WorkingState extends State<Working> {
                     style: TextStyle(
                         color: Colors.black,
                         fontWeight: FontWeight.bold,
-                        fontSize: 20),
+                        fontSize: 15),
                   ),
                   InkWell(
                     onTap: () {
@@ -384,7 +384,7 @@ class _WorkingState extends State<Working> {
                     style: TextStyle(
                         color: Colors.black,
                         fontWeight: FontWeight.bold,
-                        fontSize: 20),
+                        fontSize: 15),
                   ),
                   InkWell(
                     onTap: () {
@@ -423,7 +423,7 @@ class _WorkingState extends State<Working> {
                     style: TextStyle(
                         color: Colors.black,
                         fontWeight: FontWeight.bold,
-                        fontSize: 20),
+                        fontSize: 15),
                   ),
                   InkWell(
                     onTap: () {
@@ -462,7 +462,7 @@ class _WorkingState extends State<Working> {
                     style: TextStyle(
                         color: Colors.black,
                         fontWeight: FontWeight.bold,
-                        fontSize: 20),
+                        fontSize: 15),
                   ),
                   InkWell(
                     onTap: () {

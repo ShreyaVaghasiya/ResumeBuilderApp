@@ -24,9 +24,9 @@ class _eduState extends State<edu> {
         elevation: 0,
       ),
       body: Container(
-        margin: EdgeInsets.all(20),
+        margin: EdgeInsets.all(12),
         child: Container(
-            height: 520,
+            height: 512,
             width: 400,
             color: Colors.white,
             child: Column(
@@ -37,13 +37,13 @@ class _eduState extends State<edu> {
             child: Text(
               "    Course/Degree",
               style: TextStyle(
-                  fontSize: 20,
+                  fontSize: 12,
                   color: Colors.blue,
                   fontWeight: FontWeight.bold),
             )),
         Container(
           height: 50,
-          margin: EdgeInsets.all(20),
+          margin: EdgeInsets.all(12),
           child: TextField(
             onChanged: (value){
               setState(() {
@@ -55,7 +55,7 @@ class _eduState extends State<edu> {
               border: OutlineInputBorder(),
               hintText: "B.Tech Information Technology",
               hintStyle: TextStyle(
-                  fontSize: 20,
+                  fontSize: 12,
                   fontWeight: FontWeight.bold,
                   color: Colors.grey),
             ),
@@ -67,13 +67,13 @@ class _eduState extends State<edu> {
                       child: Text(
                         "    School/Collage/University",
                         style: TextStyle(
-                            fontSize: 20,
+                            fontSize: 12,
                             color: Colors.blue,
                             fontWeight: FontWeight.bold),
                       )),
                   Container(
                     height: 50,
-                    margin: EdgeInsets.all(20),
+                    margin: EdgeInsets.all(12),
                     child: TextField(
                       onChanged: (value){
                         setState(() {
@@ -84,7 +84,7 @@ class _eduState extends State<edu> {
                         border: OutlineInputBorder(),
                         hintText: "Bhagwan Mahaveer University",
                         hintStyle: TextStyle(
-                            fontSize: 20,
+                            fontSize: 12,
                             fontWeight: FontWeight.bold,
                             color: Colors.grey),
                       ),
@@ -96,13 +96,13 @@ class _eduState extends State<edu> {
                       child: Text(
                         "    School/Collage/University",
                         style: TextStyle(
-                            fontSize: 20,
+                            fontSize: 12,
                             color: Colors.blue,
                             fontWeight: FontWeight.bold),
                       )),
                   Container(
                     height: 50,
-                    margin: EdgeInsets.all(20),
+                    margin: EdgeInsets.all(12),
                     child: TextField(onChanged: (value){
                       setState(() {
                         Globals.per = value;
@@ -112,7 +112,7 @@ class _eduState extends State<edu> {
                         border: OutlineInputBorder(),
                         hintText: "70% (or) 7.0 CGPA",
                         hintStyle: TextStyle(
-                            fontSize: 20,
+                            fontSize: 12,
                             fontWeight: FontWeight.bold,
                             color: Colors.grey),
                       ),
@@ -124,13 +124,13 @@ class _eduState extends State<edu> {
                       child: Text(
                         "    Year of Pass",
                         style: TextStyle(
-                            fontSize: 20,
+                            fontSize: 12,
                             color: Colors.blue,
                             fontWeight: FontWeight.bold),
                       )),
                   Container(
                     height: 50,
-                    margin: EdgeInsets.all(20),
+                    margin: EdgeInsets.all(12),
                     child: TextField(
                       onChanged: (value){
                         setState(() {
@@ -139,9 +139,9 @@ class _eduState extends State<edu> {
                       },
                       decoration: InputDecoration(
                         border: OutlineInputBorder(),
-                        hintText: "2019",
+                        hintText: "1219",
                         hintStyle: TextStyle(
-                            fontSize: 20,
+                            fontSize: 12,
                             fontWeight: FontWeight.bold,
                             color: Colors.grey),
                       ),

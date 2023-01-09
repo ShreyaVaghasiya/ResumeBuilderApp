@@ -30,7 +30,7 @@ class _decState extends State<dec> {
         elevation: 0,
       ),
       body: Container(
-        margin: EdgeInsets.all(20),
+        margin: EdgeInsets.all(12),
         child: Container(
           height: 460,
           width: 400,
@@ -50,7 +50,7 @@ class _decState extends State<dec> {
                             color: Colors.blue,
                             fontWeight: FontWeight.bold),
                       )),
-                  Padding(padding: EdgeInsets.all(20)),
+                  Padding(padding: EdgeInsets.all(12)),
                   Switch(
                     value: result,
                     onChanged: (value) {
@@ -61,7 +61,7 @@ class _decState extends State<dec> {
                   ),
                 ],
               ),
-              Padding(padding: EdgeInsets.all(20)),
+              Padding(padding: EdgeInsets.all(12)),
               (result == true)
                   ? Column(
                     children: [
@@ -75,7 +75,7 @@ class _decState extends State<dec> {
                           )),
                       Padding(padding: EdgeInsets.all(5)),
                       Container(
-                        margin: EdgeInsets.all(20),
+                        margin: EdgeInsets.all(12),
                         child: TextField(
                           onChanged: (value){
                             setState(() {
@@ -86,7 +86,7 @@ class _decState extends State<dec> {
                             border: OutlineInputBorder(),
                             hintText: "Description",
                             hintStyle: TextStyle(
-                                fontSize: 20,
+                                fontSize: 12,
                                 fontWeight: FontWeight.bold,
                                 color: Colors.grey),
                           ),
@@ -99,11 +99,11 @@ class _decState extends State<dec> {
                           Column(
                             children: [
 
-                              Text("Date",style: TextStyle(color: Colors.grey,fontSize: 20,fontWeight: FontWeight.bold),),
+                              Text("Date",style: TextStyle(color: Colors.grey,fontSize: 12,fontWeight: FontWeight.bold),),
                               Container(
                                 height: 50,
                                 width: 100,
-                                margin: EdgeInsets.all(20),
+                                margin: EdgeInsets.all(12),
                                 child: TextField(
                                   controller: date4Control,
 
@@ -135,11 +135,11 @@ class _decState extends State<dec> {
                             ],
                           ),Column(
                             children: [
-                              Text("Interview Venue",style: TextStyle(color: Colors.grey,fontSize: 20,fontWeight: FontWeight.bold),),
+                              Text("Interview Venue",style: TextStyle(color: Colors.grey,fontSize: 12,fontWeight: FontWeight.bold),),
                               Container(
                                 height: 50,
                                 width: 100,
-                                margin: EdgeInsets.all(20),
+                                margin: EdgeInsets.all(12),
                                 child: TextField(
                                   onChanged: (value){
                                     setState(() {
@@ -166,13 +166,13 @@ class _decState extends State<dec> {
               Padding(padding: EdgeInsets.all(10)),
               SizedBox(
                   height: 40,
-                  width: 200,
+                  width: 150,
                   child: ElevatedButton(
                       onPressed: () {},
                       child: Text(
                         "Submit All Data",
                         style: TextStyle(
-                            fontSize: 20, fontWeight: FontWeight.bold),
+                            fontSize: 12, fontWeight: FontWeight.bold),
                       )))
             ],
           ),

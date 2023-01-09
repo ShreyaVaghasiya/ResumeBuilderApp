@@ -64,7 +64,7 @@ class _contactInfoState extends State<contactInfo> {
                   child: Text(
                     "Contact",
                     style: TextStyle(
-                        color: tc, fontWeight: FontWeight.w700, fontSize: 20),
+                        color: tc, fontWeight: FontWeight.w700, fontSize: 12),
                   ),
                 ),
                 TextButton(
@@ -79,7 +79,7 @@ class _contactInfoState extends State<contactInfo> {
                   child: Text(
                     "Photo",
                     style: TextStyle(
-                        color: tc1, fontWeight: FontWeight.w700, fontSize: 20),
+                        color: tc1, fontWeight: FontWeight.w700, fontSize: 12),
                   ),
                 ),
               ],
@@ -87,14 +87,14 @@ class _contactInfoState extends State<contactInfo> {
           ),
           (op == true)
               ? Container(
-                  margin: EdgeInsets.all(20),
+                  margin: EdgeInsets.all(12),
                   child: Container(
                     height: 560,
                     width: 400,
                     color: Colors.white,
                     child: Column(
                       children: [
-                        SizedBox(height: 20),
+                        SizedBox(height: 12),
                         Container(
                           margin: EdgeInsets.all(10),
                           child: TextField(
@@ -106,7 +106,7 @@ class _contactInfoState extends State<contactInfo> {
                             decoration: InputDecoration(
                               hintText: "Name",
                               hintStyle:
-                                  TextStyle(fontSize: 20, color: Colors.grey),
+                                  TextStyle(fontSize: 12, color: Colors.grey),
                               icon: Icon(
                                 Icons.account_circle_rounded,
                                 color: Colors.grey,
@@ -115,7 +115,7 @@ class _contactInfoState extends State<contactInfo> {
                             ),
                           ),
                         ),
-                        SizedBox(height: 20),
+                        SizedBox(height: 12),
                         Container(
                           margin: EdgeInsets.all(10),
                           child: TextField(
@@ -127,7 +127,7 @@ class _contactInfoState extends State<contactInfo> {
                             decoration: InputDecoration(
                               hintText: "Email",
                               hintStyle:
-                                  TextStyle(fontSize: 20, color: Colors.grey),
+                                  TextStyle(fontSize: 12, color: Colors.grey),
                               icon: Icon(
                                 Icons.email,
                                 color: Colors.grey,
@@ -136,7 +136,7 @@ class _contactInfoState extends State<contactInfo> {
                             ),
                           ),
                         ),
-                        SizedBox(height: 20),
+                        SizedBox(height: 12),
                         Container(
                           margin: EdgeInsets.all(10),
                           child: TextField(
@@ -148,7 +148,7 @@ class _contactInfoState extends State<contactInfo> {
                             decoration: InputDecoration(
                               hintText: "Phone",
                               hintStyle:
-                                  TextStyle(fontSize: 20, color: Colors.grey),
+                                  TextStyle(fontSize: 12, color: Colors.grey),
                               icon: Icon(
                                 Icons.wifi_calling_3_sharp,
                                 color: Colors.grey,
@@ -157,7 +157,7 @@ class _contactInfoState extends State<contactInfo> {
                             ),
                           ),
                         ),
-                        SizedBox(height: 20),
+                        SizedBox(height: 12),
                         Container(
                           margin: EdgeInsets.all(10),
                           child: TextField(
@@ -169,7 +169,7 @@ class _contactInfoState extends State<contactInfo> {
                             decoration: InputDecoration(
                               hintText: "Address",
                               hintStyle:
-                                  TextStyle(fontSize: 20, color: Colors.grey),
+                                  TextStyle(fontSize: 12, color: Colors.grey),
                               icon: Icon(
                                 Icons.add_location_rounded,
                                 color: Colors.grey,
@@ -189,7 +189,7 @@ class _contactInfoState extends State<contactInfo> {
                             decoration: InputDecoration(
                               hintText: "Address Line 2",
                               hintStyle:
-                                  TextStyle(fontSize: 20, color: Colors.grey),
+                                  TextStyle(fontSize: 12, color: Colors.grey),
                             ),
                           ),
                         ),
@@ -204,7 +204,7 @@ class _contactInfoState extends State<contactInfo> {
                             decoration: InputDecoration(
                               hintText: "Address Line 3",
                               hintStyle:
-                                  TextStyle(fontSize: 20, color: Colors.grey),
+                                  TextStyle(fontSize: 12, color: Colors.grey),
                             ),
                           ),
                         ),
@@ -220,8 +220,8 @@ class _contactInfoState extends State<contactInfo> {
                         children: [
                           (Globals.profile == null)
                               ? SizedBox(
-                                  height: 120,
-                                  width: 120,
+                                  height: 112,
+                                  width: 112,
                                   child: CircleAvatar(
                                     maxRadius: 60,
                                     backgroundColor: Colors.grey,

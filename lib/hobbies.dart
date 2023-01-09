@@ -27,7 +27,7 @@ class _hobbyState extends State<hobby> {
       ),
 
         body: Container(
-          margin: EdgeInsets.all(20),
+          margin: EdgeInsets.all(12),
           child: Container(
             height: 350,
             width: 400,
@@ -40,12 +40,12 @@ class _hobbyState extends State<hobby> {
                     child: Text(
                       "    What You Do in Your Free Time?",
                       style: TextStyle(
-                          fontSize: 20,
+                          fontSize: 12,
                           color: Colors.blue,
                           fontWeight: FontWeight.bold),
                     )),
                 Container(
-                  margin: EdgeInsets.all(20),
+                  margin: EdgeInsets.all(12),
                   child: TextField(
                     maxLines: 10,
                     onChanged: (value){
@@ -57,7 +57,7 @@ class _hobbyState extends State<hobby> {
                       border: OutlineInputBorder(),
                       hintText: "Ex.Dance,Cricket",
                       hintStyle: TextStyle(
-                          fontSize: 20,
+                          fontSize: 12,
                           fontWeight: FontWeight.bold,
                           color: Colors.grey),
                     ),

@@ -29,7 +29,7 @@ class _PersonalState extends State<Personal> {
         elevation: 0,
       ),
       body: Container(
-        margin: EdgeInsets.all(20),
+        margin: EdgeInsets.all(12),
         child: Container(
           height: 700,
           width: 400,
@@ -42,12 +42,12 @@ class _PersonalState extends State<Personal> {
                   child: Text(
                     "    DOB",
                     style: TextStyle(
-                        fontSize: 20,
+                        fontSize: 12,
                         color: Colors.blue,
                         fontWeight: FontWeight.bold),
                   )),
               Container(
-                margin: EdgeInsets.all(20),
+                margin: EdgeInsets.all(12),
                 child: TextFormField(
                   controller: dateControl,
 
@@ -71,7 +71,7 @@ class _PersonalState extends State<Personal> {
                     border: OutlineInputBorder(),
                     hintText: "DD/MM/YYYY",
                     hintStyle: TextStyle(
-                        fontSize: 20,
+                        fontSize: 12,
                         fontWeight: FontWeight.bold,
                         color: Colors.grey),
                   ),
@@ -83,7 +83,7 @@ class _PersonalState extends State<Personal> {
                   child: Text(
                     "    Marital Status",
                     style: TextStyle(
-                        fontSize: 20,
+                        fontSize: 12,
                         color: Colors.blue,
                         fontWeight: FontWeight.bold),
                   )),
@@ -91,7 +91,7 @@ class _PersonalState extends State<Personal> {
                   title: Text(
                     "Single",
                     style: TextStyle(
-                        fontSize: 20,
+                        fontSize: 12,
                         color: Colors.grey,
                         fontWeight: FontWeight.bold),
                   ),
@@ -106,7 +106,7 @@ class _PersonalState extends State<Personal> {
                   title: Text(
                     "Married",
                     style: TextStyle(
-                        fontSize: 20,
+                        fontSize: 12,
                         color: Colors.grey,
                         fontWeight: FontWeight.bold),
                   ),
@@ -123,14 +123,14 @@ class _PersonalState extends State<Personal> {
                   child: Text(
                     "    Languages Known",
                     style: TextStyle(
-                        fontSize: 20,
+                        fontSize: 12,
                         color: Colors.blue,
                         fontWeight: FontWeight.bold),
                   )),
               CheckboxListTile(
                   controlAffinity: ListTileControlAffinity.leading,
                   title: Text("English", style: TextStyle(
-                      fontSize: 20,
+                      fontSize: 12,
                       color: Colors.grey,
                       fontWeight: FontWeight.bold),),
                   value: Globals.Lang, onChanged: (value) {
@@ -141,7 +141,7 @@ class _PersonalState extends State<Personal> {
               CheckboxListTile(
                   controlAffinity: ListTileControlAffinity.leading,
                   title: Text("Hindi", style: TextStyle(
-                      fontSize: 20,
+                      fontSize: 12,
                       color: Colors.grey,
                       fontWeight: FontWeight.bold),),
                   value: Globals.Lang2, onChanged: (value) {
@@ -152,7 +152,7 @@ class _PersonalState extends State<Personal> {
               CheckboxListTile(
                   controlAffinity: ListTileControlAffinity.leading,
                   title: Text("Gujarati", style: TextStyle(
-                      fontSize: 20,
+                      fontSize: 12,
                       color: Colors.grey,
                       fontWeight: FontWeight.bold),),
                   value: Globals.Lang3, onChanged: (value) {
@@ -166,12 +166,12 @@ class _PersonalState extends State<Personal> {
                   child: Text(
                     "    Nationality",
                     style: TextStyle(
-                        fontSize: 20,
+                        fontSize: 12,
                         color: Colors.blue,
                         fontWeight: FontWeight.bold),
                   )),
               Container(
-                margin: EdgeInsets.all(20),
+                margin: EdgeInsets.all(12),
                 child: TextField(
                   onChanged: (value) {
                     setState(() {
@@ -182,7 +182,7 @@ class _PersonalState extends State<Personal> {
                     border: OutlineInputBorder(),
                     hintText: "Indian",
                     hintStyle: TextStyle(
-                        fontSize: 20,
+                        fontSize: 12,
                         fontWeight: FontWeight.bold,
                         color: Colors.grey),
                   ),
