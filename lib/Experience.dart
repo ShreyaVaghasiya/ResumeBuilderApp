@@ -31,9 +31,9 @@ class _expState extends State<exp> {
         elevation: 0,
       ),
       body:Container(
-        margin: EdgeInsets.all(20),
+        margin: EdgeInsets.all(12),
         child: Container(
-            height: 700,
+            height: 500,
             width: 400,
             color: Colors.white,
             child: Column(
@@ -44,13 +44,13 @@ class _expState extends State<exp> {
             child: Text(
               "    Company Name",
               style: TextStyle(
-                  fontSize: 20,
+                  fontSize: 12,
                   color: Colors.blue,
                   fontWeight: FontWeight.bold),
             )),
         Container(
           height: 50,
-          margin: EdgeInsets.all(20),
+          margin: EdgeInsets.all(12),
           child: TextField(
             onChanged: (value){
               setState(() {
@@ -61,7 +61,7 @@ class _expState extends State<exp> {
               border: OutlineInputBorder(),
               hintText: "New Enterprise San Fransico",
               hintStyle: TextStyle(
-                  fontSize: 20,
+                  fontSize: 12,
                   fontWeight: FontWeight.bold,
                   color: Colors.grey),
             ),
@@ -72,13 +72,13 @@ class _expState extends State<exp> {
                       child: Text(
                         "    School/Collage/Institute",
                         style: TextStyle(
-                            fontSize: 20,
+                            fontSize: 12,
                             color: Colors.blue,
                             fontWeight: FontWeight.bold),
                       )),
                   Container(
                     height: 50,
-                    margin: EdgeInsets.all(20),
+                    margin: EdgeInsets.all(12),
                     child: TextField(
                       onChanged: (value){
                         setState(() {
@@ -89,7 +89,7 @@ class _expState extends State<exp> {
                         border: OutlineInputBorder(),
                         hintText: "Quality Test Engineer",
                         hintStyle: TextStyle(
-                            fontSize: 20,
+                            fontSize: 12,
                             fontWeight: FontWeight.bold,
                             color: Colors.grey),
                       ),
@@ -100,13 +100,13 @@ class _expState extends State<exp> {
                       child: Text(
                         "    Roles(Optional)",
                         style: TextStyle(
-                            fontSize: 20,
+                            fontSize: 12,
                             color: Colors.blue,
                             fontWeight: FontWeight.bold),
                       )),
                   Container(
                     // height: 50,
-                    margin: EdgeInsets.all(20),
+                    margin: EdgeInsets.all(12),
                     child: TextField(
                       onChanged: (value){
                         setState(() {
@@ -118,7 +118,7 @@ class _expState extends State<exp> {
                         border: OutlineInputBorder(),
                         hintText: "Working with Team Members to come up with New Concepts and Products Analysits",
                         hintStyle: TextStyle(
-                            fontSize: 20,
+                            fontSize: 12,
                             fontWeight: FontWeight.bold,
                             color: Colors.grey),
                       ),
@@ -130,7 +130,7 @@ class _expState extends State<exp> {
                       child: Text(
                         "    Employee Status",
                         style: TextStyle(
-                            fontSize: 15,
+                            fontSize: 12,
                             color: Colors.blue,
                             fontWeight: FontWeight.bold),
                       )),
@@ -165,7 +165,7 @@ class _expState extends State<exp> {
                     margin: EdgeInsets.all(10),
                     child: TextField(
                       decoration: InputDecoration(
-                        hintStyle: TextStyle(fontSize: 20,color: Colors.grey),
+                        hintStyle: TextStyle(fontSize: 12,color: Colors.grey),
                       ),
                     ),
                   ),
@@ -176,11 +176,11 @@ class _expState extends State<exp> {
                       Column(
                         children: [
 
-                          Text("Date Joined",style: TextStyle(color: Colors.grey,fontSize: 20,fontWeight: FontWeight.bold),),
+                          Text("Date Joined",style: TextStyle(color: Colors.grey,fontSize: 12,fontWeight: FontWeight.bold),),
                           Container(
                             height: 40,
                             width: 100,
-                            margin: EdgeInsets.all(20),
+                            margin: EdgeInsets.all(12),
                             child: TextField(
                               controller: date1Control,
 
@@ -212,11 +212,11 @@ class _expState extends State<exp> {
                         ],
                       ),Column(
                         children: [
-                          Text("Date Exit",style: TextStyle(color: Colors.grey,fontSize: 20,fontWeight: FontWeight.bold),),
+                          Text("Date Exit",style: TextStyle(color: Colors.grey,fontSize: 12,fontWeight: FontWeight.bold),),
                           Container(
                             height: 40,
                             width: 100,
-                            margin: EdgeInsets.all(20),
+                            margin: EdgeInsets.all(12),
                             child: TextField(
                               controller: date2Control,
 
@@ -255,11 +255,11 @@ class _expState extends State<exp> {
                     children: [
                       Column(
                         children: [
-                          Text("Date Joined",style: TextStyle(color: Colors.grey,fontSize: 20,fontWeight: FontWeight.bold),),
+                          Text("Date Joined",style: TextStyle(color: Colors.grey,fontSize: 12,fontWeight: FontWeight.bold),),
                           Container(
                             height: 40,
                             width: 100,
-                            margin: EdgeInsets.all(20),
+                            margin: EdgeInsets.all(12),
                             child: TextField(
                               controller: date3Control,
 
